@@ -2,7 +2,7 @@
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 20:48:06 
  * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-04 23:18:30
+ * @Last Modified time: 2019-03-05 01:38:13
 */
 @import '../../colors';
 
@@ -31,6 +31,7 @@
         padding: .5rem;
         border: 2px solid $color-txt-onDark;
         transition: .05s;
+        text-align: center;
 
         &.linkedin{
             &:hover{
