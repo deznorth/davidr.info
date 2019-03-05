@@ -1,11 +1,11 @@
 /*
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 19:12:01 
- * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-04 19:33:24
+ * @Last Modified by: David M. Rojas Gonzalez // deznorth.com
+ * @Last Modified time: 2019-03-05 10:57:31
 */
 import React from 'react';
-import logo from '../../logo.svg';
+import logo from '../../media/logo.svg';
 import resume from '../../David_Rojas_Resume.pdf';
 import './Header.scss';
 
