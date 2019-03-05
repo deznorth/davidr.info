@@ -2,7 +2,7 @@
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 13:34:59 
  * @Last Modified by: David M. Rojas Gonzalez // deznorth.com
- * @Last Modified time: 2019-03-05 14:07:59
+ * @Last Modified time: 2019-03-05 14:42:02
 */
 @import './colors';
 
@@ -29,8 +29,8 @@
   }
 
   @media (max-width: 400px) {
-    .App{
-      padding: 1.5rem .5rem;
+    .App-content{
+      padding: 1.5 .5rem;
     }
   }
 }

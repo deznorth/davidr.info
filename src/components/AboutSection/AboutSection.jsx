@@ -2,7 +2,7 @@
  * @Author: David M. Rojas Gonzalez // deznorth.com 
  * @Date: 2019-03-05 11:01:09 
  * @Last Modified by: David M. Rojas Gonzalez // deznorth.com
- * @Last Modified time: 2019-03-05 14:25:00
+ * @Last Modified time: 2019-03-05 15:22:37
 */
 
 import React from 'react';
@@ -43,7 +43,7 @@ const AboutSection = () => {
             <div id="aboutSection-extra" className="aboutSection-card bg-glass extraHidden">
                 <div>
                     <h2>Get to know a bit more...</h2>
-                    <p>working on this text...</p>
+                    <p>On a more personal note, I am a friendly guy who loves playing video games, more specifically, team based games that make my team and I think strategically and work together. As a result, my two favorite games are Rocket League and Dota 2. Another hobby of mine is latin dancing. I know how to salsa and bachata, and I’ve taught classes in casual and professional settings. However, I consider myself somewhere between a beginner and an intermediate dancer. </p>
                 </div>
             </div>
 
