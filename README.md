@@ -11,7 +11,7 @@ My name is David Rojas and this is the repository for my portfolio site. You can
 - [x] SocialBar component
 - [x] Hero component
 - [x] Footer component
-- [ ] AboutSection component
+- [x] AboutSection component
 - [ ] SkillsSection component
 	- [ ] SkillCategory component
 	- [ ] Skill component
