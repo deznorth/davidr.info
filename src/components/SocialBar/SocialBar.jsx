@@ -2,13 +2,19 @@
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 20:48:25 
  * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-04 22:11:08
+ * @Last Modified time: 2019-03-04 23:12:05
 */
 
 import React from 'react';
 import './SocialBar.scss';
+import resume from '../../David_Rojas_Resume.pdf';
 
-const SocialBar = () => {
+const SocialBar = (props) => {
+    let resumebtn;
+    if(props.resumeBtn){
+        resumebtn = <a href={resume} download="David_Rojas_Resume.pdf" className="download-resume">download resume</a>;
+    }
+
     return (
         <span className="socialBar">
             <ul>
@@ -17,6 +23,7 @@ const SocialBar = () => {
                 <a href="https://codepen.io/david-rojas/" className="social-link codepen" rel="noopener noreferrer" target="_blank"><i class="fab fa-codepen"></i> Codepen</a>
                 <a href="https://www.instagram.com/davidr.dev/" className="social-link instagram" rel="noopener noreferrer" target="_blank"><i class="fab fa-instagram" ></i> Instagram</a>
             </ul>
+            {resumebtn}
         </span>
     );
 }
