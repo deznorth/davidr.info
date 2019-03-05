@@ -2,14 +2,14 @@
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 13:34:59 
  * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-04 19:18:52
+ * @Last Modified time: 2019-03-04 22:20:54
 */
 @import './colors';
 
 .App{
   background-color: rgba(0,0,0,0.15);
   box-shadow: -2px 4px 5px rgba(0,0,0,0.35);
-  padding: 1.5em;
+  padding: 1.5rem;
 
   
 
@@ -29,5 +29,11 @@
       color: darken($color-secondary, 35);
       border-color: darken($color-secondary, 35);
     }
+  }
+}
+
+@media (max-width: 400px) {
+  .App{
+    padding: 1.5rem .5rem;
   }
 }
