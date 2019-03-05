@@ -2,7 +2,7 @@
  * @Author: David M. Rojas Gonzalez // deznorth.com 
  * @Date: 2019-03-05 11:00:49 
  * @Last Modified by: David M. Rojas Gonzalez // deznorth.com
- * @Last Modified time: 2019-03-05 13:54:19
+ * @Last Modified time: 2019-03-05 13:58:07
 */
 
 @import '../../colors';
@@ -12,6 +12,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 1rem 0 1rem 0;
 
     @media (max-width: 1400px){
         flex-direction: column;
@@ -24,12 +25,13 @@
         align-items: center;
         width: 50%;
         height: 20rem;
-        margin: 1rem 0 1rem 0;
+        margin: 0 1rem 0 1rem;
 
         @media (max-width: 1400px){
             flex-direction: column;
             height: auto;
             width: 90%;
+            margin: 1rem 0 1rem 0;
         }
 
         h2{
