@@ -1,8 +1,8 @@
 /*
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 19:57:05 
- * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-04 22:44:03
+ * @Last Modified by: David M. Rojas Gonzalez // deznorth.com
+ * @Last Modified time: 2019-03-05 10:46:35
 */
 @import '../../colors';
 
@@ -17,12 +17,12 @@ $break-xs: 400px;
     justify-content: center;
     align-items: center;
     transition: .2s height;
-    height: 77vh;
+    min-height: 77vh;
     @media (max-width: $break-md){
-        height: 70vh;
+        min-height: 70vh;
     }
     @media (max-width: $break-sm){
-        height: 65vh;
+        min-height: 65vh;
     }
     
     .hero-title{
@@ -31,6 +31,7 @@ $break-xs: 400px;
         justify-content: center;
         align-items: center;
         margin-bottom: 2rem;
+        min-height: 205px;
 
         p{
             font-family: 'Bree Serif', serif;

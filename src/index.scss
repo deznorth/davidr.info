@@ -1,22 +1,28 @@
 /*
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 13:35:26 
- * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-04 19:59:41
+ * @Last Modified by: David M. Rojas Gonzalez // deznorth.com
+ * @Last Modified time: 2019-03-05 10:26:29
 */
 @import './colors';
 
+html{
+  min-height: 100vh;
+  background-image: linear-gradient(135deg, $color-grad-red,$color-grad-purple);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2rem;
+}
+
 body {
   margin: 0;
-  padding: 2rem;
+  
   color: $color-txt-onDark;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(135deg, $color-grad-red,$color-grad-purple);
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100vh;
+  height: 100%;
+  //min-height: 100vh;
 }
 
 @for $i from 1 through 6{

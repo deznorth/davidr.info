@@ -1,8 +1,8 @@
 /*
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 19:02:41 
- * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-05 01:47:29
+ * @Last Modified by: David M. Rojas Gonzalez // deznorth.com
+ * @Last Modified time: 2019-03-05 10:46:14
 */
 
 import React, { Component } from 'react';
