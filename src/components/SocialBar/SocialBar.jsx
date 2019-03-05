@@ -1,18 +1,19 @@
 /*
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 20:48:25 
- * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-05 01:37:18
+ * @Last Modified by: David M. Rojas Gonzalez // deznorth.com
+ * @Last Modified time: 2019-03-05 14:04:25
 */
 
 import React from 'react';
 import './SocialBar.scss';
-import resume from '../../David_Rojas_Resume.pdf';
+import ResumeBtn from '../ResumeBtn/ResumeBtn';
+
 
 const SocialBar = (props) => {
     let resumebtn;
     if(props.resumeBtn){
-        resumebtn = <a href={resume} download="David_Rojas_Resume.pdf" className="download-resume">download resume</a>;
+        resumebtn = <ResumeBtn />;
     }
 
     return (
