@@ -2,7 +2,7 @@
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 19:12:01 
  * @Last Modified by: David M. Rojas Gonzalez // deznorth.com
- * @Last Modified time: 2019-03-05 10:57:31
+ * @Last Modified time: 2019-03-05 14:30:47
 */
 import React from 'react';
 import logo from '../../media/logo.svg';
@@ -21,9 +21,15 @@ const Header = () => {
             </span>
             <span className="app-nav">
                 <ul>
-                <a href="#" className="header-link">about</a>
-                <a href="#" className="header-link">skills</a>
-                <a href="#" className="header-link">projects</a>
+                <button onClick={()=>{
+                    document.getElementById("aboutSection").scrollIntoView({ behavior: 'smooth' });
+                }} className="header-link">about</button>
+                <button onClick={()=>{
+                    document.getElementById("aboutSection").scrollIntoView({ behavior: 'smooth' });
+                }} className="header-link">skills</button>
+                <button onClick={()=>{
+                    document.getElementById("aboutSection").scrollIntoView({ behavior: 'smooth' });
+                }} className="header-link">projects</button>
                 </ul>
                 <a href={resume} download="David_Rojas_Resume.pdf" className="download-resume">download resume</a>
             </span>

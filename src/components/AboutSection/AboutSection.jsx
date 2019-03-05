@@ -2,7 +2,7 @@
  * @Author: David M. Rojas Gonzalez // deznorth.com 
  * @Date: 2019-03-05 11:01:09 
  * @Last Modified by: David M. Rojas Gonzalez // deznorth.com
- * @Last Modified time: 2019-03-05 12:25:31
+ * @Last Modified time: 2019-03-05 14:25:00
 */
 
 import React from 'react';
@@ -29,7 +29,7 @@ const AboutSection = () => {
     }
 
     return (
-        <div className="aboutSection">
+        <div id="aboutSection" className="aboutSection">
             <div className="aboutSection-card bg-glass">
                 <span>
                     <img src={profilePic} alt="Picture of David Rojas" />

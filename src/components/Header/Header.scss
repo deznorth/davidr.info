@@ -2,7 +2,7 @@
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 19:15:35 
  * @Last Modified by: David M. Rojas Gonzalez // deznorth.com
- * @Last Modified time: 2019-03-05 14:13:16
+ * @Last Modified time: 2019-03-05 14:31:57
 */
 @import '../../colors';
 
@@ -55,6 +55,8 @@
         color: $color-txt-onDark;
         text-transform: uppercase;
         margin-right: 2rem;
+        background: none;
+        border: none;
 
         &:hover{
             color: $color-secondary;
