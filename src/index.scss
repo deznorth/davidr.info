@@ -12,11 +12,14 @@ html{
   background-size: cover;
   background-repeat: no-repeat;
   padding: 2rem;
+  @media (max-width: 600px){
+    padding: 1.2rem;
+  }
 }
 
 body {
   margin: 0;
-  
+  padding: 0;
   color: $color-txt-onDark;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -43,10 +46,4 @@ button{
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-@media (max-width: 1200px){
-  body{
-    padding: 1rem;
-  }
 }
