@@ -2,12 +2,19 @@
  * @Author: David M. Rojas Gonzalez // davidr.info  
 * @Date: 2019-03-08 20:35:56  
  * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-08 21:44:52
+ * @Last Modified time: 2019-03-08 23:11:08
 */
 
 import React, { Component } from 'react';
 import './SkillsSection.scss';
 import SkillsCategory from '../SkillsCategory/SkillsCategory';
+
+const genKey = (category) => { //Uses the first character of the category title and a random number
+    let key = '';
+    key += category.title.charAt(0);
+    key += Math.floor(Math.random()*256);
+    return key;
+}
 
 class SkillsSection extends Component {
     state = {
@@ -96,12 +103,20 @@ class SkillsSection extends Component {
     }
 
     render(){
+
+        let categories = [];
+        this.state.skills.forEach((category, index) => {
+            if(index === 0){
+                categories.push(<SkillsCategory first key={genKey(category)} {...category} />);
+            } else {
+                categories.push(<SkillsCategory key={genKey(category)} {...category} />);
+            }
+        });
+
         return (
             <div className="skillsSection bg-glass">
-                <SkillsCategory {...this.state.skills[0]} />
-                <SkillsCategory {...this.state.skills[1]} />
-                <SkillsCategory {...this.state.skills[2]} />
-                <SkillsCategory {...this.state.skills[3]} />
+                <span ></span>
+                {categories}
             </div>
         );
     }

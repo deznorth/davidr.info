@@ -2,12 +2,12 @@
  * @Author: David M. Rojas Gonzalez // davidr.info  
 * @Date: 2019-03-08 20:51:27  
  * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-08 21:45:41
+ * @Last Modified time: 2019-03-08 22:51:15
 */
 
 @import '../../colors';
 
-$highlight-space-modifier: 0.5;
+$highlight-space-modifier: 0.4;
 
 .skillsCategory{
     display: flex;
@@ -18,9 +18,16 @@ $highlight-space-modifier: 0.5;
 
     &.highlightedCategory{
         flex-grow: $highlight-space-modifier;
+        border-right: 1px solid rgba(0,0,0,0.2);
+
+        @media (max-width: 550px){
+            border: 0;
+            border-bottom: 1px solid rgba(0,0,0,0.2);
+        }
     }
 
     .skillsCategory-content{
         padding: 0;
+        min-width: 8rem;
     }
 }
