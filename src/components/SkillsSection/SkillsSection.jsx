@@ -2,7 +2,7 @@
  * @Author: David M. Rojas Gonzalez // davidr.info  
 * @Date: 2019-03-08 20:35:56  
  * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-08 23:11:08
+ * @Last Modified time: 2019-03-08 23:18:02
 */
 
 import React, { Component } from 'react';
@@ -115,7 +115,6 @@ class SkillsSection extends Component {
 
         return (
             <div className="skillsSection bg-glass">
-                <span ></span>
                 {categories}
             </div>
         );
