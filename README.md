@@ -12,8 +12,8 @@ My name is David Rojas and this is the repository for my portfolio site. You can
 - [x] Hero component
 - [x] Footer component
 - [x] AboutSection component
-- [ ] SkillsSection component
-	- [ ] SkillCategory component
-	- [ ] Skill component
+- [x] SkillsSection component
+	- [x] SkillCategory component
+	- [x] Skill component
 - [ ] ProjectsSection component
 	- [ ] ProjectDisplay component
