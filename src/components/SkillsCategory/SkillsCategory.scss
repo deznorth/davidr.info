@@ -1,0 +1,26 @@
+/*
+ * @Author: David M. Rojas Gonzalez // davidr.info  
+* @Date: 2019-03-08 20:51:27  
+ * @Last Modified by: David M. Rojas Gonzalez // davidr.info
+ * @Last Modified time: 2019-03-08 21:45:41
+*/
+
+@import '../../colors';
+
+$highlight-space-modifier: 0.5;
+
+.skillsCategory{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    &.highlightedCategory{
+        flex-grow: $highlight-space-modifier;
+    }
+
+    .skillsCategory-content{
+        padding: 0;
+    }
+}

@@ -1,8 +1,8 @@
 /*
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 19:57:05 
- * @Last Modified by: David M. Rojas Gonzalez // deznorth.com
- * @Last Modified time: 2019-03-05 10:46:35
+ * @Last Modified by: David M. Rojas Gonzalez // davidr.info
+ * @Last Modified time: 2019-03-08 20:58:37
 */
 @import '../../colors';
 
@@ -74,6 +74,7 @@ $break-xs: 400px;
             span:nth-of-type(2){
                 margin-left: 2rem;
                 font-size: 3.5rem;
+                color: $color-txt-onDark;
 
                 @media (max-width: $break-lg){
                     font-size: 2.5rem;
