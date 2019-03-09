@@ -35,7 +35,7 @@ const AboutSection = () => {
         <div id="aboutSection" className="aboutSection">
             <div id="aboutSection-default" className="aboutSection-card bg-glass">
                 <span>
-                    <img src={profilePic} alt="David Rojas" />
+                    <img width="200px" height="200px" src={profilePic} alt="David Rojas" />
                     <div>
                         <h2>About Me</h2>
                         <p>David Rojas is an Information Science student at the University of North Florida; expecting to graduate in Fall 2021. He’s pursuing a career in web development, starting as a Front-end Developer to create awesome websites and applications. David is a self-driven developer with an eye for design and attention to detail. He takes pride in his work and loves taking structured and organized approaches. He’s currently working on a few side projects and is seeking internship opportunities</p>
