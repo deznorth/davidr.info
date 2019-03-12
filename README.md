@@ -1,6 +1,7 @@
 
 # Hello, World!
-My name is David Rojas and this is the repository for my portfolio site. You can find the live version at https://www.davidr.info
+My name is David Rojas and this is the repository for my portfolio site. You can find the live version [here](https://www.davidr.info)\
+Feel free to checkout my [Trello board](https://trello.com/b/9BFVhjyN) as well. 
 
 ## Task List for the release of v1.0
 - [x] Adobe XD Design
