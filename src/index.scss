@@ -2,7 +2,7 @@
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 13:35:26 
  * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-08 20:56:57
+ * @Last Modified time: 2019-03-17 19:23:12
 */
 @import './colors';
 
@@ -31,6 +31,7 @@ body {
 @for $i from 1 through 6{
   h#{$i}{
     font-family: 'Bree Serif', serif;
+    letter-spacing: 0.07rem;
     @if $i == 1 {
       color: $color-primary;
     } @else {

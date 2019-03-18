@@ -2,7 +2,7 @@
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 19:12:01 
  * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-08 23:14:38
+ * @Last Modified time: 2019-03-17 19:05:30
 */
 import React from 'react';
 import logo from '../../media/logo.svg';
@@ -28,7 +28,7 @@ const Header = () => {
                     document.getElementById("SkillsSection").scrollIntoView({ behavior: 'smooth' });
                 }} className="header-link">skills</button>
                 <button onClick={()=>{
-                    document.getElementById("aboutSection").scrollIntoView({ behavior: 'smooth' });
+                    document.getElementById("ProjectsSection").scrollIntoView({ behavior: 'smooth' });
                 }} className="header-link">projects</button>
                 </ul>
                 <a href={resume} download="David_Rojas_Resume.pdf" className="download-resume">download resume</a>

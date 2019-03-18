@@ -2,7 +2,7 @@
  * @Author: David M. Rojas Gonzalez // davidr.info 
  * @Date: 2019-03-04 19:02:41 
  * @Last Modified by: David M. Rojas Gonzalez // davidr.info
- * @Last Modified time: 2019-03-08 20:59:22
+ * @Last Modified time: 2019-03-17 21:18:02
 */
 
 import React, { Component } from 'react';
@@ -13,11 +13,7 @@ import Hero from './components/Hero/Hero';
 import AboutSection from './components/AboutSection/AboutSection';
 import Footer from './components/Footer/Footer';
 import SkillsSection from './components/SkillsSection/SkillsSection';
-
-let tempStyle = {
-  textAlign: 'center',
-  color: 'white'
-};
+import ProjectsSection from './components/ProjectsSection/ProjectsSection';
 
 class App extends Component {
   
@@ -27,9 +23,9 @@ class App extends Component {
         <div className="App-content bg-glass">
           <Header />
           <Hero />
-          <h2 style={tempStyle}>I'm still working on the site. You can check out the repo <a href="https://github.com/deznorth/davidr.info/tree/dev" target="_blank" rel="noopener noreferrer">here</a></h2>
           <AboutSection />
           <SkillsSection />
+          <ProjectsSection />
         </div>
         <Footer />
       </div>
