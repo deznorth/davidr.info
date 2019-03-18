@@ -1,6 +1,6 @@
 {
   "name": "davidr.info",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "compression": "^1.7.3",
