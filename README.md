@@ -4,7 +4,7 @@ My name is David Rojas and this is the repository for my portfolio site. You can
 Feel free to checkout my [Trello Board](https://trello.com/b/9BFVhjyN) as well. 
 
 
-## Task List for the release of v1.0
+## Task List for the release of v1.0 (RELEASED!)
 - [x] Adobe XD Design
 - [x] create color and style guides
 - [x] create-react-app setup
@@ -17,5 +17,5 @@ Feel free to checkout my [Trello Board](https://trello.com/b/9BFVhjyN) as well.
 - [x] SkillsSection component
 	- [x] SkillCategory component
 	- [x] Skill component
-- [ ] ProjectsSection component
-	- [ ] ProjectDisplay component
+- [x] ProjectsSection component
+	- [x] ProjectDisplay component
