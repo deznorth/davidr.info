@@ -8,7 +8,7 @@
 
 html{
   min-height: 100vh;
-  background-image: linear-gradient(135deg, $color-grad-red,$color-grad-purple);
+  background-image: linear-gradient(132deg, $color-grad-1,$color-grad-2);
   background-size: cover;
   background-repeat: no-repeat;
   padding: 2rem;
@@ -25,7 +25,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
-  //min-height: 100vh;
 }
 
 @for $i from 1 through 6{

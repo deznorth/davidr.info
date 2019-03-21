@@ -25,7 +25,7 @@ const data = [
     {
         imgUrl: 'https://farm5.staticflickr.com/4895/46684308284_830e05c28a_h.jpg',
         title: 'davidr.info',
-        shortDescription: 'This website',
+        shortDescription: 'This website. I\'m testing color themes so the screenshot might not match the current site.',
         links: {
             repositoryUrl: 'https://github.com/deznorth/davidr.info',
             liveUrl: 'https://www.davidr.info'
