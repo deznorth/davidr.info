@@ -32,7 +32,7 @@ class SkillsSection extends Component {
                         proficiency: 6
                     },
                     {
-                        name: 'React & React-Router',
+                        name: 'React, Redux & React-Router',
                         proficiency: 5
                     },
                     {
