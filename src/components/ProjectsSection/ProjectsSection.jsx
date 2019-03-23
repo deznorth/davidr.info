@@ -27,8 +27,7 @@ const data = [
         title: 'davidr.info',
         shortDescription: 'This website. I\'m testing color themes so the screenshot might not match the current site.',
         links: {
-            repositoryUrl: 'https://github.com/deznorth/davidr.info',
-            liveUrl: 'https://www.davidr.info'
+            repositoryUrl: 'https://github.com/deznorth/davidr.info'
         }
     },
     {
