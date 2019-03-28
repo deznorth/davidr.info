@@ -6,14 +6,12 @@
 */
 
 import React, { Component } from 'react';
-
 import './App.scss';
-import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import AboutSection from './components/AboutSection/AboutSection';
-import Footer from './components/Footer/Footer';
-import SkillsSection from './components/SkillsSection/SkillsSection';
-import ProjectsSection from './components/ProjectsSection/ProjectsSection';
+import Header from './components/containers/Header/Header';
+import Footer from './components/containers/Footer/Footer';
+
+import HomePage from './components/pages/Home/HomePage';
+
 
 class App extends Component {
   
@@ -22,10 +20,7 @@ class App extends Component {
       <div className="App">
         <div className="App-content bg-glass">
           <Header />
-          <Hero />
-          <AboutSection />
-          <SkillsSection />
-          <ProjectsSection />
+          <HomePage />
         </div>
         <Footer />
       </div>
