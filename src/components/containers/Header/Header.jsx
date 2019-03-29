@@ -5,6 +5,7 @@
  * @Last Modified time: 2019-03-28 14:51:34
 */
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../../resources/media/logo.svg';
 import './Header.scss';
 import ResumeBtn from '../../elements/ResumeBtn/ResumeBtn';
@@ -30,6 +31,7 @@ const Header = () => {
                 <button onClick={()=>{
                     document.getElementById("ProjectsSection").scrollIntoView({ behavior: 'smooth' });
                 }} className="header-link">projects</button>
+                <Link className="header-link" to="/blog" >Blog</Link>
                 </ul>
                 <ResumeBtn />
             </span>

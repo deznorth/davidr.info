@@ -16,6 +16,9 @@ import Header from './components/containers/Header/Header';
 import Footer from './components/containers/Footer/Footer';
 //Pages
 import HomePage from './components/pages/Home/HomePage';
+import BlogPage from './components/pages/Blog/BlogPage/BlogPage';
+import BlogRangePage from './components/pages/Blog/BlogRangePage/BlogRangePage';
+import BlogPostPage from './components/pages/Blog/BlogPostPage/BlogPostPage';
 
 
 class App extends Component {
@@ -30,6 +33,9 @@ class App extends Component {
               <div id="PageWrapper">
                 <Switch>
                   <Route path="/" component={HomePage} exact/>
+                  <Route path="/blog" component={BlogPage} exact/>
+                  <Route path="/blog/:year/:month" component={BlogRangePage} exact/>
+                  <Route path="/blog/:year/:month/:id" component={BlogPostPage} exact/>
                   <Route component={()=>{return( <h1>Error 404</h1> );}} />
                 </Switch>
               </div>
